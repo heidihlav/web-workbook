@@ -1,0 +1,79 @@
+.box {
+  background: magenta;
+  border: 10px;
+  border-color: limegreen;
+  border-style: solid;
+  border-radius: 7px;
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  margin: 20px;
+  left: 30%;
+  position: relative;
+}
+
+.container {
+  margin: 100px;
+  width: 1000px;
+  height: 1000px;
+  border-style: dotted;
+
+}
+
+.container:hover div:hover {
+  transform: scale(2);
+  animation-name: bigger;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+
+}
+
+.container:hover div:not(:hover) {
+  transform: scale(.5);
+  animation-name: bigger2;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+}
+
+@keyframes bigger {
+  0% {
+    left: 30%;
+    transform: rotate(20deg);
+  }
+  50% {
+    left: 70%;
+    transform: rotate(90deg);
+  }
+  75% {
+    left: 75%;
+    transform: rotate(180deg);
+  }
+
+  100% {
+    left: 100%;
+    transform: rotate(360deg);
+  }
+
+}
+
+@keyframes bigger2 {
+  0% {
+    left: 30%;
+    transform: rotate(-20deg);
+  }
+  50% {
+    left: 20%;
+    transform: rotate(-90deg);
+  }
+  75% {
+    left: 10%;
+    transform: rotate(-180deg);
+  }
+
+  100% {
+    left: 10%;
+    transform: rotate(-360deg);
+  }
+
+}

@@ -1,0 +1,147 @@
+body {
+  font-family: "Palatino Linotype", Palatino, serif;
+  margin: 1em;
+  border: 1em;
+  font-size: 100%;
+  line-height: 120%;
+  vertical-align: baseline;
+
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 32px;
+  color: darkslateblue;
+  padding: 0.3em 0;
+}
+
+
+h2 {
+  font-weight: bold;
+  font-size: 130%;
+  padding: 0.3em 0;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+
+h5 {
+  font-style: italic;
+}
+
+ul {
+  padding: 0.7em;
+}
+
+/*Smartphones Media Query*/
+
+@media screen
+  and (min-width: 320px) and (max-width: 736px) {
+
+    header img {
+      display: block;
+      margin: auto;
+      width: 50%;
+      height: 12em;
+      width: 9em;
+
+    }
+
+    body {
+      font-family: "Palatino Linotype", Palatino, serif;
+      margin: 1em;
+      border: 1em;
+      font-size: 100%;
+      line-height: 120%;
+      vertical-align: baseline;
+
+    }
+
+    h1 {
+      font-weight: bold;
+      font-size: 32px;
+      color: darkslateblue;
+      padding: 0.3em 0;
+      display: flex;
+      justify-content: center;
+    }
+
+
+    h2 {
+      font-weight: bold;
+      font-size: 130%;
+      padding: 0.3em 0;
+    }
+
+    h3 {
+      font-weight: bold;
+    }
+
+
+    h5 {
+      font-style: italic;
+    }
+
+    ul {
+      padding: 0.7em;
+    }
+
+}
+
+
+@media screen
+  and (min-width: 737px) and (max-width: 1600px) {
+
+   .laptop-screen {
+      display: flex;
+      justify-content: space-between;
+      columns: 368px 2;
+      column-gap: 1px;
+      flex-wrap: wrap;
+
+    }
+
+
+    body {
+      font-family: "Palatino Linotype", Palatino, serif;
+      margin: 1em;
+      border: 1em;
+      font-size: 100%;
+      line-height: 120%;
+      vertical-align: baseline;
+
+    }
+
+    h1 {
+      font-weight: bold;
+      font-size: 32px;
+      color: darkslateblue;
+      padding: 0.3em 0;
+
+    }
+
+
+    h2 {
+      font-weight: bold;
+      font-size: 130%;
+      padding: 0.3em 0;
+    }
+
+    h3 {
+      font-weight: bold;
+    }
+
+
+    h5 {
+      font-style: italic;
+    }
+
+    ul {
+      padding: 0.7em;
+    }
+
+
+
+  }

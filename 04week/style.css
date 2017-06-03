@@ -1,0 +1,194 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+
+/*Hero image and text */
+
+.hero-image {
+  background: url("heroamber.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  display: block;
+  text-align: left;
+  position: absolute;
+  top: 20%;
+  left: 43%;
+  color: #e1e2e0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  box-sizing: border-box;
+  width: 1em;
+}
+
+.hero-text img {
+  border-radius: 10px;
+}
+
+.hero-bite {
+  font-size: 3.1em;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  padding-left: 540px;
+  margin-top: 0.5em;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #e1e2e0;
+  text-align: center;
+  justify-content: space-between;
+  font-size: 1.3em;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #7FE21C;
+}
+
+.about-tab {
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+
+/* About Me Section */
+
+.about-me-image img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+  width: 140px;
+  margin-top: 2em;
+  margin-left: 650px;
+}
+
+.about-me-text p {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  margin-top: 1em;
+  margin-bottom: 3em;
+  box-sizing: border-box;
+  width: 20em;
+  margin-left: 590px;
+}
+
+
+/*Smartphones Media Query*/
+
+@media screen and (min-width: 320px) and (max-width: 736px) {
+
+  html {
+  background: url("heroamber.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+  /*body, html {
+    height: 100%;
+    margin: 0;
+  }*/
+  /*Hero image and text */
+  /*.hero-image {
+    background: url("heroamberphone.jpg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: contain;*/
+    /*position: relative;*/
+
+
+  .hero-text {
+    display: block;
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: #e1e2e0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    box-sizing: border-box;
+    width: 1em;
+  }
+
+  .hero-bite {
+    font-size: 2em;
+  }
+  /* Navigation Bar */
+  .navbar {
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    padding-left: 40px;
+    margin-top: 0.5em;
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: #e1e2e0;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 1.3em;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+  }
+  .navbar a:hover {
+    color: #7FE21C;
+  }
+  .about-tab {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  /* About Me Section */
+  .about-me-image img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    width: 140px;
+    margin-top: 2em;
+    margin-left: 50%;
+  }
+  .about-me-text p {
+    font-family: "Lato", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    box-sizing: border-box;
+    width: 20em;
+    margin-left: 50%;
+  }
+
+}

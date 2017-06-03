@@ -1,0 +1,28 @@
+
+.box {
+  padding: 10px;
+  margin: 10px;
+  left: 40%;
+  right: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1000px;
+  height: 1000px;
+  margin-top: 30px;
+  margin-left: 200px;
+  padding-top: 70px;
+  /*border-style: dotted;*/
+  position: relative;
+}
+
+.container:hover div:hover {
+  transform: scale(2);
+}
+
+.container:hover div:not(:hover) {
+  transform: scale(.5);
+  filter: grayscale(1);
+}

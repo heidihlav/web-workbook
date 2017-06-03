@@ -1,0 +1,19 @@
+div {
+  background: navy;
+  background: linear-gradient(direction, color, color); /*IE and Chrome */
+  background: -webkit-linear-gradient(direction, color, color); /* Safari */
+  background: -o-linear-gradient(direction, color, color); /* Opera */
+  background: -moz-linear-gradient(direction, color, color); /* Firefox */
+  /* different browsers don't always recognize gradients,
+  so need prefixes*/
+
+.Header {
+    position: fixed;
+
+}
+
+
+
+
+
+}

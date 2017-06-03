@@ -1,0 +1,50 @@
+body {
+  background-color: #474545;
+}
+
+h1 {
+  font-family: "Abril Fatface", cursive, serif;
+  font-size: 3em;
+  margin: 0.3em;
+  color: #cecccc;
+  letter-spacing: 2px;
+}
+
+.content-box {
+  width: 700px;
+  height: 800px;
+  /*border: 1px solid gray;*/
+  box-sizing: border-box;
+}
+
+h2 a, h2 a:link {
+  text-decoration: none;
+  color: #f9e0e0;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4em;
+  font-weight: 400;
+  margin-left: 2em;
+}
+
+h2 a:hover {
+  color: #bee894;
+}
+
+.post-description {
+  margin: 0.8em 3em;
+  color: #cecccc;
+  font-weight: 300;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 0.7em;
+  color: #bee894;
+  margin-left: 4.3em;
+  margin-bottom: 3em;
+}
+
+p {
+  font-family: "Raleway", serif;
+}
